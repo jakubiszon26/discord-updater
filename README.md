@@ -1,5 +1,14 @@
 # discord-updater
 Discord Updater is a bash script designed to automate the process of updating Discord installed from a tar.gz file. It simplifies the updating process by checking for and installing new versions automatically.
+## dependencies
+```notify-send```
+```curl```
+### OpenSUSE Tumbleweed
+```$ sudo zypper in libnotify-tools curl```
+### Arch Linux 
+```$ sudo pacman -S libnotify curl```
+### Fedora Linux
+```$ sudo dnf install libnotify curl```
 
 ## Install manually 
 

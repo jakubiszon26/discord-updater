@@ -9,4 +9,4 @@ fi
 
 mkdir -p ~/bin && mv /tmp/discord.sh ~/bin
 chmod +x ~/bin/discord.sh
-mv /tmp/discord.desktop ~/.local/share/applications/
+mv -f /tmp/discord.desktop ~/.local/share/applications/
